@@ -64,7 +64,6 @@ const getBook = async () => {
       } catch (error) {
         console.error(error)
       };
-
     })
   } catch {
     manageCardsDIV('<h2 style="margin: 0 auto, padding: 1em;">Could not find books for: ' + query + '</h2>')
